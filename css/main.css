@@ -1,7 +1,6 @@
 header {
   background-image: url(../img/background.png);
   background-color: #b85077;
-  background-blend-mode: hard-light;
   background-size: cover;
   color: #fff; }
 
@@ -69,7 +68,7 @@ section {
   transition: 0.5s; }
 
 .form-control:focus {
-  border: #EA5455 1px solid;
+  border: #b85077 1px solid;
   box-shadow: none; }
 
 .site-footer {
@@ -80,7 +79,7 @@ section {
 
 .btn-primary {
   color: #fff;
-  background-color: #EA5455 !important;
+  background-color: #b85077 !important;
   border-color: inherit !important; }
 
 /*# sourceMappingURL=main.css.map */
