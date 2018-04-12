@@ -1,0 +1,12 @@
+@import "modules/variables.scss";
+
+@import "partials/header";
+@import "partials/section";
+@import "partials/footer";
+
+
+.btn-primary {
+    color: #fff;
+    background-color: $secondary !important;
+    border-color: inherit !important;
+}

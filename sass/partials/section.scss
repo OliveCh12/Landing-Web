@@ -1,0 +1,51 @@
+section{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.site-features{
+    text-align: center;
+    .icon-feature{
+        font-size: 60pt;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color: $background-light;
+        background-color: $primary;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        padding: 30px;
+        
+    }
+}
+.site-contact{
+    text-align: center;
+    background-color: #f5f5f5;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    
+}
+.site-socials{
+    text-align: center;
+    .socials-icons{
+        opacity: 0.5;
+        transition: 0.3;
+    }
+    .socials-icons:hover{
+        opacity: 1;
+    }
+}
+
+
+.third-title{
+    margin-bottom: 3rem;
+}
+
+.form-control {
+    border: $grey 1px solid;
+    box-shadow: none;
+    transition: 0.5s;
+  }
+.form-control:focus {
+    border: $secondary 1px solid;
+    box-shadow: none;
+  }

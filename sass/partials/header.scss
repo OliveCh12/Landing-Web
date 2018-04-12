@@ -1,0 +1,38 @@
+header {
+    background-image: url(../img/background.png);
+    background-color: $primary;
+    background-blend-mode: hard-light   ;
+    background-size: cover;
+    color: #fff;
+}
+nav{
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+    background-color: rgba($color: #000000, $alpha: 0.1);
+
+    
+}
+.site-intro{
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;    
+}
+
+.site-phrase{
+    opacity: 1;
+    font-size: 30pt;
+}
+
+.site-subtitle{
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 10px 10px 40px rgba(0,0,0,0.4);
+}
+
+@media screen and (max-width: 1000px) {
+    .site-subtitle{
+        font-size: 2rem;
+        font-weight: bold;
+        text-shadow: 10px 10px 40px rgba(0,0,0,0.4);
+    }
+}
